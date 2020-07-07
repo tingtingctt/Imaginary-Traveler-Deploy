@@ -2,7 +2,7 @@
 
 import React, {useEffect, useState} from "react";
 import "./style.css";
-import { StreetView } from "react-google-map-street-view";
+import StreetView  from "../react-google-map-street-view/dist-es6/StreetView";
 
 function Halfpano(props){
 
