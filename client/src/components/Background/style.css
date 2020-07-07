@@ -1,0 +1,81 @@
+.Background {
+    background-image: url("../../assets/background.jpg"); 
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+#bridge:hover {
+    content: url("../../assets/bridge.gif");
+    /* animation-name: zoom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; */
+}
+
+
+#alburquerque:hover {
+    content: url("../../assets/gifs/alburquerque.gif");
+}
+
+
+
+#dracula:hover {
+    content: url("../../assets/gifs/dracula.gif");
+}
+
+
+#foucault:hover {
+    content: url("../../assets/gifs/foucault.gif");
+}
+
+
+
+#gatsby:hover {
+    content: url("../../assets/gifs/gatsby.gif");
+}
+
+
+
+#guns:hover {
+    content: url("../../assets/gifs/guns.gif");
+}
+
+
+
+#kingbird:hover {
+    content: url("../../assets/gifs/kingbird.gif");
+}
+
+
+
+#play:hover {
+    content: url("../../assets/gifs/play.gif");
+}
+
+
+
+#savannah:hover {
+    content: url("../../assets/gifs/savannah.gif");
+}
+
+
+
+#sleep:hover {
+    content: url("../../assets/gifs/sleep.gif");
+}
+
+
+
+#union2:hover {
+    content: url("../../assets/gifs/union2.gif")
+}
+
+
+#hunch:hover {
+    content: url("../../assets/hunchback.gif");
+}
+
+
+@keyframes zoom {
+    from {transform:scale(1)}
+    to {transform:scale(2)}
+  }
