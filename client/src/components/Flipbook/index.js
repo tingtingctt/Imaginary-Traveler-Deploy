@@ -8,12 +8,6 @@ import audios from '../../assets/audioCMS';
 // import {TransitionGroup as ReactCSSTransitionGroup} from 'react-transition-group';
 
 
-// import test6
-//import audio0 from "src";
-//import audio1 from "src";
-//const audios = {audio0: require("../src"), audio1: require("../src")}
-
-
 let books = [
   {
     location: "",

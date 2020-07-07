@@ -84,9 +84,11 @@ class MyFlipbook extends React.Component {
       : (
       
       <>
-        <Panorama style={{zIndex:"3", position: "fixed", top: 0, left: 0}} address={this.props.locations??[this.state.index]}/>
+       {this.props.locations? (<Panorama address={this.props.locations[this.state.index]} style={{zIndex:"3", position: "fixed", top: 0, left: 0}} />): (<></>)  }
+        {/* <Panorama style={{zIndex:"3", position: "fixed", top: 0, left: 0}} address={this.props.locations??[this.state.index]}/> */}
         <button style={{zIndex:"100", position: "fixed", top: "1em"}} onClick={this.handleClick}>Go back</button>
-        <Subtitle text={(this.props.descriptions??[this.state.index]).split(".")}/>
+        {this.props.descriptions? (<Subtitle text={(this.props.descriptions[this.state.index]).split(".")}/>): null  }
+        {/* <Subtitle text={(this.props.descriptions??[this.state.index]).split(".")}/> */}
 
 
       </>)
